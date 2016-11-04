@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fa8072"
+    android:padding="15dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="LOGIN"
+        android:textSize="20dp"
+        android:textColor="#000"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:id="@+id/name"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PASSWORD"
+        android:textColor="#000"
+        android:textSize="20dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:id="@+id/pass"
+        android:inputType="textPassword"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="forgot password ??"
+        android:id="@+id/forgot"
+        android:layout_marginBottom="20dp"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:textSize="20dp"
+        android:background="#cd5c5c"
+        android:id="@+id/go"/>
+</LinearLayout>

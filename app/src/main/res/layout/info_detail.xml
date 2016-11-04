@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#fa8072">
+
+    <ImageView
+        android:id="@+id/imageViewGambarBendera"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:src="@drawable/cake3"
+        android:background="#e9967a"/>
+
+    <TextView
+        android:id="@+id/textViewNamaNegara"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:paddingLeft="15dp"
+        android:text="TextView"
+        android:textColor="#000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:hint="Tulis Pesan Anda "
+        android:id="@+id/ucapan"/>
+
+    <Spinner
+        android:id="@+id/kirim"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5">
+    </Spinner>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:textColor="#000"
+            android:textSize="20dp"
+            android:text="From" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:hint="Nama Pengirim"
+            android:id="@+id/pengirim"/>
+        <Button
+            android:id="@+id/next"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:text="Submit"
+            android:textColor="#000"
+            android:background="#cd5c5c"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
